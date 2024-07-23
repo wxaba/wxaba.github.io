@@ -33,6 +33,11 @@
     <script>
       let temp = document.getElementById('temp')
       alert(temp)
+      let newElement = document.createElement('span');
+      newElement.textContent = '🦑 🦑 🦑 🦑 🦑 🦑';
+      for(let i = 0; i<=200; i++){
+        temp.appendChild(newElement)
+      }
     </script>
   </body>
 </html>
